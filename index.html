@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"
+    <title></title>
+</head>
+    <body id="page-wrapper" onkeydown="myKeycode(event)">
+        <div id="keycodeTitle">
+    <h1 id="keycodeButton">Press a key to see the keycode</h1>
+</div>
+    <div id='keycodeGenerator' class='showKeycode'>
+        <h1 id="KeycodeNum"></h1>
+            <h2 id='keycode'></h2>
+                <div class="boxWrapper">
+                    <div class="eventBox">
+                        <p>e.key</p>
+                        <h3 id="eventKey"></h3>
+                    </div>
+
+                    <div class="eventBox">
+                        <p>e.code</p>
+                        <h3 id="eventCode"></h3>
+                    </div>
+                    <div class="eventBox">
+                        <p>e.which</p>
+                        <h3 id="eventWhich"></h3>
+                    </div>
+                </div>
+    </div>
+  
+<script src="app.js"></script>
+
+</html>
