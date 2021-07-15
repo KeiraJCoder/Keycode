@@ -2,14 +2,7 @@
 
 .showKeycode {
     display: none;
-}
-#keycodeTitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 300%;
-}
+
 .boxWrapper {
     display: flex;
     flex-direction: row;
@@ -45,6 +38,15 @@ html, body {
     background-size: 100% 100%;
     text-align: center;
 }
+
+#keycodeTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+}
+
 h1 {
     text-align: center;
     font-size:90%;
